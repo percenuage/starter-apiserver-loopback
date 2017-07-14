@@ -1,0 +1,13 @@
+{
+  "db": {
+    "url": "mongodb://localhost:27017/starter",
+    "name": "db",
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "../uploads"
+  }
+}

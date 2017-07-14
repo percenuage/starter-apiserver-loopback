@@ -1,0 +1,48 @@
+{
+  "name": "starter-apiserver-loopback",
+  "version": "1.0.0",
+  "description": "Starter | API Server | Loopback",
+  "author": "Percenuage",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:percenuage/starter-apiserver-loopback.git"
+  },
+  "engines": {
+    "node": "8.x.x",
+    "npm": "5.x.x"
+  },
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon --watch server/ .",
+    "posttest": "npm run lint && nsp check",
+    "lb": "lb",
+    "lint": "eslint ."
+  },
+  "license": "SEE LICENSE",
+  "homepage": "https://github.com/percenuage/starter-apiserver-loopback/blob/master/README.md",
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "compression": "1.6.2",
+    "cors": "2.8.3",
+    "dotenv": "4.0.0",
+    "express": "4.15.2",
+    "helmet": "3.6.1",
+    "http-auth": "3.2.3",
+    "loopback": "3.8.0",
+    "loopback-boot": "2.24.1",
+    "loopback-component-storage": "3.2.0",
+    "loopback-connector-mongodb": "1.18.1",
+    "serve-favicon": "2.4.3",
+    "strong-error-handler": "2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-loopback": "8.0.0",
+    "loopback-cli": "2.5.1",
+    "loopback-component-explorer": "4.2.0",
+    "nodemon": "1.11.0",
+    "nsp": "2.6.3"
+  }
+}

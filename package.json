@@ -21,7 +21,7 @@
   },
   "license": "SEE LICENSE",
   "homepage": "https://github.com/percenuage/starter-apiserver-loopback/blob/master/README.md",
-  "private": true,
+  "private": false,
   "dependencies": {
     "body-parser": "1.17.2",
     "compression": "1.6.2",
